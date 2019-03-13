@@ -59,7 +59,10 @@ class Main extends PluginBase implements Listener{
 
 
     public function onDisable(){
-        $this->getLogger()->info("§cDéconnexion de Hesuvia");
+        $this->getLogger()->info("|--------------------------|");
+        $this->getLogger()->info("|-------By Steellgold------|");
+        $this->getLogger()->info("|----§cEasyGamemodeChange--|");
+        $this->getLogger()->info("|--------------------------|");
     }
 
 
